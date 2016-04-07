@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'prune', '--production' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.25
+4 verbose node_modules/pdfjs-dist unbuild
+5 verbose node_modules/jshint unbuild
+6 verbose node_modules/nsp unbuild
+7 info preuninstall pdfjs-dist@1.4.192
+8 info preuninstall jshint@2.9.1
+9 info preuninstall nsp@2.2.1
+10 info uninstall pdfjs-dist@1.4.192
+11 info uninstall jshint@2.9.1
+12 info uninstall nsp@2.2.1
+13 verbose true,/home/nhuan/MyWorking/Serapis/node_modules,/home/nhuan/MyWorking/Serapis/node_modules unbuild pdfjs-dist@1.4.192
+14 info postuninstall pdfjs-dist@1.4.192
+15 verbose true,/home/nhuan/MyWorking/Serapis/node_modules,/home/nhuan/MyWorking/Serapis/node_modules unbuild jshint@2.9.1
+16 verbose /home/nhuan/MyWorking/Serapis/node_modules/.bin,[object Object] binRoot
+17 verbose true,/home/nhuan/MyWorking/Serapis/node_modules,/home/nhuan/MyWorking/Serapis/node_modules unbuild nsp@2.2.1
+18 verbose /home/nhuan/MyWorking/Serapis/node_modules/.bin,[object Object] binRoot
+19 error Error: EACCES, unlink '/home/nhuan/MyWorking/Serapis/node_modules/.bin/jshint'
+19 error  { [Error: EACCES, unlink '/home/nhuan/MyWorking/Serapis/node_modules/.bin/jshint']
+19 error   errno: 3,
+19 error   code: 'EACCES',
+19 error   path: '/home/nhuan/MyWorking/Serapis/node_modules/.bin/jshint' }
+20 error Please try running this command again as root/Administrator.
+21 error System Linux 4.2.0-34-generic
+22 error command "/usr/bin/nodejs" "/usr/bin/npm" "prune" "--production"
+23 error cwd /home/nhuan/MyWorking/Serapis
+24 error node -v v0.10.25
+25 error npm -v 1.4.21
+26 error path /home/nhuan/MyWorking/Serapis/node_modules/.bin/jshint
+27 error code EACCES
+28 error errno 3
+29 error stack Error: EACCES, unlink '/home/nhuan/MyWorking/Serapis/node_modules/.bin/jshint'
+30 verbose exit [ 3, true ]

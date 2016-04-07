@@ -1,0 +1,30 @@
+{
+  "name": "file",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "size": {
+      "type": "number"
+    },
+    "type":{
+      "type":"string"
+    },
+    "ldate": {
+      "type": "date"
+    },
+    "url":{
+      "type":"string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

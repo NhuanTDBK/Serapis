@@ -1,0 +1,12 @@
+{
+  "name": "container",
+  "base": "Model",
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

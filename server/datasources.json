@@ -1,0 +1,21 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongodb-corp": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "database": "CoffeeShop",
+    "password": "",
+    "name": "mongodb-corp",
+    "user": "admin",
+    "connector": "mongodb"
+  },
+  "storage": {
+    "name": "storage",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./server/storage"
+  }
+}
